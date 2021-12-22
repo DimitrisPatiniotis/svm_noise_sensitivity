@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="truth-table ">
+        <table >
+            <caption>Selected Datasets</caption>
+            <tr class=" table-header ">
+              <th>Name</th>
+              <th>Instances</th>
+              <th>Attributes</th>
+              <th>Classes</th>
+            </tr>
+            <tr>
+              <td>Iris Plants</td>
+              <td>150</td>
+              <td>4</td>
+              <td>3</td>
+            </tr>
+            <tr>
+                <td>Handwritten Digits</td>
+                <td>1797</td>
+                <td>64</td>
+                <td>10</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-weight: 100;
+    }
+
+    .truth-table {
+        display: flex;
+        height: 90vh;
+        justify-content: center;
+        align-items: center;
+    }
+
+    table {
+        border: 1px solid black;
+        width:  500px;
+    }
+
+    .table-header th {
+        border-bottom: 1px solid black;
+        padding: 10px;
+        font-weight: 500;
+        font-size: 110%;
+        background-color: rgba(0, 0, 0, 0.15);
+    }
+
+    table,
+    tr,
+    td,
+    th,
+    caption {
+        text-align: center;
+
+        border: 1px solid #000;
+        border-collapse: collapse;
+    }
+
+    td {
+        height: 25px;
+    }
+
+    caption {
+        /* background: #E0E0E0; */
+        margin: 0;
+        border: 1px solid #333333;
+        border-bottom: none;
+        padding: 6px 16px;
+        font-size: 22px;
+    }
+
+    time {
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+    }
+
+</style>
