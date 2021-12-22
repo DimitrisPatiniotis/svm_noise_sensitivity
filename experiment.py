@@ -167,12 +167,3 @@ def make_experiment(dataset, itterations):
     return str(round(np.average(svm_avg_l), 2)) + '% \n' + str(round(np.average(nb_avg_l), 2))+ '% \n' + str(round(np.average(dt_avg_l), 2)) + '% \n'  + str(round(np.average(knn_avg_l), 2)) + '%'
 
 
-# create_set(iris)
-create_set(digits)
-
-
-# print(make_experiment(digits, 10))
-
-# print(make_experiment(iris, 10))
-
-# print(make_experiment(iris, 20))
